@@ -4,7 +4,7 @@
   <img src="resources/reconstruction.png"  width="600"/>
 </p>
 
-This repository contains the implementation of my master's thesis work titled "Hierarchical Reconstruction of Quadtree-Based Approximations of Incident Radiance". It is based on ["Variance-Aware Path Guiding" [Rath et al. 2020]](https://graphics.cg.uni-saarland.de/publications/rath-2020-siggraph-guiding.html) and ["Practical Path Guiding for Efficient Light-Transport Simulation" [Müller et al. 2017]](https://tom94.net). I have tried to mark all of my contributions with "`@addition J.N`" to make it easier to navigate. These contributions are mainly found in *mitsuba/src/integrators/path/guided_path.cpp*.
+This repository contains the implementation of my master's thesis work titled "Hierarchical Reconstruction of Quadtree-Based Approximations of Incident Radiance". It is based on ["Variance-Aware Path Guiding" [Rath et al. 2020]](https://graphics.cg.uni-saarland.de/publications/rath-2020-siggraph-guiding.html) and ["Practical Path Guiding for Efficient Light-Transport Simulation" [Müller et al. 2017]](https://tom94.net). My work addresses the fact that, in previous work, the guiding distributions are noisy for short renders (i.e with insufficient training). My approach to improving previous work is to apply Gaussian denoising to the guiding distributions. I have tried to mark all of my contributions with "`@addition J.N`" to make it easier to navigate. These contributions are mainly found in *mitsuba/src/integrators/path/guided_path.cpp*.
 
 
 
